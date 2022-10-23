@@ -227,10 +227,10 @@ bindsym $mod+Control+l exec i3lock -i $HOME/Pictures/wallpaper/png/firewatch-mou
 for_window [class="^.*"] border pixel 0
 
 gaps outer 0
-gaps inner 10
+gaps inner 20
 gaps vertical 1
-gaps top 50
-gaps horizontal 2
+gaps top 25
+gaps horizontal 5
 
 #take screenshot
 # bindsym $mod+a exec scrot -s
