@@ -3,7 +3,7 @@ configuration {
   display-window: "Windows:";
   drun-display-format: "{name}";
   font: " Anonymice Nerd Font bold 12";
-  modi: "window,run,drun";
+  modi: "window,run,drun,emoji";
   show-icons: true;
   icon-theme: "Papirus";
 }
