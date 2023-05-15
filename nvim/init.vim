@@ -26,16 +26,16 @@ Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 
 call plug#end()
 
-nnoremap <C-f> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+#nnoremap <C-f> :NERDTreeFocus<CR>
+#nnoremap <C-n> :NERDTree<CR>
+#nnoremap <C-t> :NERDTreeToggle<CR>
 
 
-nmap <F8> :TagbarToggle<CR>
+#nmap <F8> :TagbarToggle<CR>
 
-:set completeopt-=preview " For No Previews
+#:set completeopt-=preview " For No Previews
 
-:colorscheme jellybeans
+#:colorscheme jellybeans
 
-let g:NERDTreeDirArrowExpandable="+"
-let g:NERDTreeDirArrowCollapsible="-"
+#let g:NERDTreeDirArrowExpandable="+"
+#let g:NERDTreeDirArrowCollapsible="-"
