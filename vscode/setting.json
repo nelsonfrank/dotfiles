@@ -1,78 +1,78 @@
 {
-  "workbench.iconTheme": "Monokai Pro Icons",
-  "workbench.colorTheme": "Monokai Pro",
-  "editor.fontFamily": "'Cascadia Code','Source Code Pro','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "zenMode.centerLayout": false,
-  "zenMode.hideActivityBar": false,
-  "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false,
-  "zenMode.hideTabs": false,
-  "explorer.compactFolders": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "markdown.preview.fontFamily": "'Cascadia Code','Source Code Pro',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
-  "editor.formatOnPaste": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "modificationsIfAvailable",
-  "editor.formatOnType": true,
-  "leetcode.workspaceFolder": "/home/networ/.leetcode",
-  "workbench.editor.showTabs": false,
-  "peacock.favoriteColors": [
-    {
-      "name": "Angular Red",
-      "value": "#dd0531"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#61dafb"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Svelte Orange",
-      "value": "#ff3d00"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    }
-  ],
-  "peacock.affectActivityBar": false,
-  "editor.fontLigatures": true,
-  "window.menuBarVisibility": "toggle",
-  // "files.autoSave": "afterDelay",
-  // "files.autoSaveDelay": 7000,
-  "editor.fontSize": 12,
-  "terminal.integrated.fontSize": 12,
-  "json.maxItemsComputed": 6000,
-  "tabnine.experimentalAutoImports": true,
-  "editor.bracketPairColorization.enabled": true,
-  "redhat.telemetry.enabled": true
+	"workbench.colorTheme": "Cobalt2",
+
+	"editor.fontFamily": " 'JetBrainsMono Nerd Font','SpaceMono Nerd Font','Anonymous Pro','Inconsolata'",
+	"editor.fontWeight": 500,
+	"editor.fontLigatures": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.guides.bracketPairs": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSaveMode": "modificationsIfAvailable",
+	"editor.formatOnType": true,
+	"editor.lineHeight": 0,
+	"editor.fontSize": 16,
+	"editor.formatOnSave": true,
+	"editor.bracketPairColorization.enabled": true,
+
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.panel.defaultLocation": "bottom",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.sideBar.location": "right",
+	"workbench.editor.enablePreview": false,
+
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontWeight": "600",
+	"terminal.integrated.fontWeightBold": "600",
+	"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+
+	"prettier.endOfLine": "auto",
+	"prettier.jsxSingleQuote": true,
+	"prettier.useTabs": true,
+
+	"zenMode.hideActivityBar": false,
+	"zenMode.hideLineNumbers": false,
+	"zenMode.hideStatusBar": false,
+	"zenMode.hideTabs": true,
+	"zenMode.centerLayout": false,
+
+	"markdown.preview.fontFamily": "Incosolata,Anonymous Pro, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+	"markdown.preview.fontSize": 16,
+
+	"explorer.compactFolders": false,
+	"explorer.openEditors.visible": 1,
+
+	"security.workspace.trust.untrustedFiles": "open",
+	"git.confirmSync": false,
+	"window.menuBarVisibility": "toggle",
+	"json.maxItemsComputed": 6000,
+	"application.shellEnvironmentResolutionTimeout": 70,
+	"diffEditor.ignoreTrimWhitespace": false,
+
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma",
+		"editor.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	}
 }
