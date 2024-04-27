@@ -2,7 +2,7 @@ configuration {
   display-drun: "Applications:";
   display-window: "Windows:";
   drun-display-format: "{name}";
-  font: " Anonymice Nerd Font bold 12";
+  font: " Space Mono Nerd Font bold 14";
   modi: "window,run,drun,emoji";
   show-icons: true;
   icon-theme: "Papirus";
