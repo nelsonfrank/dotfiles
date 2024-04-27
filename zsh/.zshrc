@@ -4,7 +4,7 @@ DEFAULT_USER="coder"
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/networ/.oh-my-zsh"
+export ZSH="/home/nelson/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -75,6 +75,9 @@ ZSH_THEME="spaceship"
 plugins=(
 	git 
 	zsh-autosuggestions
+	zsh-syntax-highlighting 
+	you-should-use 
+	zsh-bat
     )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vim="nvim"
 
 # Golang 
 export PATH=$PATH:/usr/local/go/bin
@@ -131,3 +135,50 @@ if [ -d "$HOME/.config/composer/vendor/bin" ] ; then
     PATH="$HOME/.config/composer/vendor/bin:$PATH"
 fi
 
+
+# smart cd comand - zoxide 
+
+eval "$(zoxide init zsh)"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+# flutter
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+# Android studio
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Personal folder path
+export MYPROJECTDIR=~/nelson/ 
+export WORKDIR=~/work/ 
+
+# Personal alias
+alias mypdir="cd $MYPROJECTDIR"
+alias work="cd $WORKDIR"
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/nelson/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/nelson/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/nelson/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/nelson/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# bun completions
+[ -s "/home/nelson/.bun/_bun" ] && source "/home/nelson/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
