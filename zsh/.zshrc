@@ -182,3 +182,23 @@ unset __conda_setup
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/nelson/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/nelson/.dart-cli-completion/zsh-config.zsh ]] && . /home/nelson/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# zoxide
+
+eval "$(zoxide init --cmd cd zsh)"
