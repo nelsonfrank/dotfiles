@@ -124,3 +124,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 #Tmux
 export TMUX_CONF=~/.config/tmux/tmux.conf
+
+# Fzf
+source <(fzf --zsh)
