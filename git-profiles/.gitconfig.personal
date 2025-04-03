@@ -1,0 +1,11 @@
+[init]
+	defaultBranch = main
+[user]
+	email = nelsonfrank741@gmail.com
+	name = nelsonfrank
+
+[github]
+user = "nelsonfrank"
+ 
+[core]
+sshCommand = "ssh -i ~/.ssh/keys/github.com"
