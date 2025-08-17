@@ -1,8 +1,0 @@
-call plug#begin('~/.vim/plugged')
-
-" Fugitive Vim Github Wrapper
-Plug 'tpope/vim-fugitive'
-
-" Autocompletion
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-call plug#end()
