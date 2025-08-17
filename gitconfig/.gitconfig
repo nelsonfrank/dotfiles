@@ -1,0 +1,14 @@
+[user]
+    name = nelson frank
+    email = nelsonfrank741@gmail.com
+
+[core]
+    editor = vim
+
+# Work repos
+[includeIf "gitdir:~/work/client/"]
+    path = ~/.gitconfig-work
+
+# Personal repos
+[includeIf "gitdir:~/work/me/"]
+    path = ~/.gitconfig-personal
